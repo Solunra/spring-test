@@ -1,4 +1,4 @@
-package com.testing.game.service;
+package com.testing.game.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
