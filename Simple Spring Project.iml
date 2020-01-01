@@ -45,8 +45,6 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.1" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.10.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.2.2.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.29" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.29" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.29" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-validation:2.2.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: jakarta.validation:jakarta.validation-api:2.0.1" level="project" />
@@ -90,6 +88,13 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.2.2.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.2.2.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.6.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.tomcat.embed:tomcat-embed-jasper:9.0.29" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.29" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-annotations-api:9.0.29" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.29" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.eclipse.jdt:ecj:3.18.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:jstl:1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.10" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-actuator:2.2.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.2.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator:2.2.2.RELEASE" level="project" />
