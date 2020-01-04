@@ -19,6 +19,26 @@
             float: right;
         }
     </style>
+    <script>
+        var chatUrl = window.location.href + "chat";
+        var chatHistory = "No History";
+
+        function getChatHistory()
+        {
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.open("GET", chatUrl, true); // true for asynchronous
+            xmlHttp.send(null);
+            xmlHttp.onreadystatechange = function() {
+                if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+                    callback(xmlHttp.responseText);
+            }
+        }
+
+        function callback(response)
+        {
+            return response;
+        }
+    </script>
 </head>
 <body>
     <div class = "chatHistory">

@@ -1,3 +1,19 @@
+GET http://localhost:8080/chat
+
+###
+
+GET http://localhost:8080/chat
+
+<> 2020-01-02T094527.500.json
+
+###
+
+GET http://localhost:8080/chat
+
+<> 2020-01-02T094440.500.json
+
+###
+
 GET http://localhost:8080/actuator/health/**
 Accept: application/vnd.spring-boot.actuator.v3+json
 

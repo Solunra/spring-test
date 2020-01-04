@@ -4,20 +4,21 @@ import com.testing.game.model.Message;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.PriorityQueue;
-import java.util.Queue;
 
 @Component
 public class MessageConfig {
 
-    @Bean("messages")
-    public Queue<Message> obtainMessages()
+    @Bean
+    public List<Message> obtainMessages()
     {
-        Queue<Message> messages = new PriorityQueue<>();
+        List<Message> messages = new ArrayList<>(10);
         try(BufferedReader reader = new BufferedReader(new FileReader(getResources())))
         {
             String line;
